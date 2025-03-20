@@ -1,0 +1,8 @@
+[1/5] FROM docker.io/library/python:latest@sha256:8c55c44b9e81d537f8404d0000b7331863d134db87c1385dd0ec7fefff6  0.0s
+ => => resolve docker.io/library/python:latest@sha256:8c55c44b9e81d537f8404d0000b7331863d134db87c1385dd0ec7fefff6  0.0s
+ => [internal] load build context                                                                                  0.1s
+ => => transferring context: 44.74kB                                                                               0.1s
+ => CACHED [2/5] WORKDIR /app                                                                                      0.0s
+ => CACHED [3/5] COPY requirements.txt .                                                                           0.0s
+ => CACHED [4/5] RUN python -m pip install -r requirements.txt                                                     0.0s
+ => [5/5] COPY . . 
